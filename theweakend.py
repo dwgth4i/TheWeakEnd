@@ -13,7 +13,7 @@ def generator_for_fullname(perm,dob, results):
             pw2 = pw1 + str(dob[0])
             pw3 = pw2 + str(dob[1])
             pw4 = pw1 + str(dob[2])
-            pw5 = pw1 + str(dob[2][-2]) + str(dob[2][-1])
+            pw5 = pw3 + str(dob[2][-2]) + str(dob[2][-1])
             pw6 = pw1 + j 
             pw7 = pw6 + str(dob[0])
             pw8 = pw7 + str(dob[1])
