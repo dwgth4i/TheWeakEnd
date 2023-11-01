@@ -15,7 +15,9 @@ Receiving objects: 100% (15/15), 5.42 KiB | 924.00 KiB/s, done.
 Resolving deltas: 100% (2/2), done.
 ```
 # Usage
-```python3 theweakend.py <họ và tên> <nickname> <ngày sinh (ngày-tháng-năm)>```
+```
+python3 theweakend.py <họ và tên> <nickname> <ngày sinh (ngày-tháng-năm)>
+```
 ### Ví dụ
 ```
 # Script sẽ generate ra các passwords, sau đó tạo và ghi thẳng vào 1 file tên là passwords.txt cùng thư mục với đoạn script này.
