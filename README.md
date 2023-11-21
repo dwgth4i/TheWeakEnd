@@ -1,7 +1,7 @@
 # Overview
-- Đây là 1 tool mình ngẫu hứng viết ra, khá hữu dụng và hiệu quả (nếu cho mục đích tốt :D)
+- Đây là 1 tool mình ngẫu hứng viết ra, khá hữu dụng và hiệu quả.
 - Tool này sẽ generate ra các mật khẩu yếu có thể được sử dụng từ thông tin của người mà mình cung cấp theo pattern của cá nhân mà mình nghĩ là dễ đặt theo nhất
-- Nếu cảm thấy không ổn mọi người có thể tự custom lại khiến cho tool trở nên hiệu quả hơn, và hơn nữa code chỉ là mình code qua cho xong để làm task nên nhiều chỗ không ổn cho lắm trông khá tệ về mặt thẩm mĩ và logic =))) Enjoy <3
+- Nếu cảm thấy không ổn mọi người có thể tự custom lại khiến cho tool trở nên hiệu quả hơn, và hơn nữa mình chỉ code qua cho xong để làm task nên nhiều chỗ không ổn cho lắm trông khá tệ về mặt thẩm mĩ và logic =))) 
 # Installation
 ```
  git clone https://github.com/dwgth4i/TheWeakEnd
