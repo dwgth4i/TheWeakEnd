@@ -23,17 +23,7 @@ def generator_for_fullname(perm, dob, results):
             pw9 = pw8 + str(dob[2])
             pw10 = pw8 + str(dob[2][-2]) + str(dob[2][-1])
             pw11 = pw3 + str(dob[2])
-            results.append(pw1)
-            results.append(pw2)
-            results.append(pw3)
-            results.append(pw4)
-            results.append(pw5)
-            results.append(pw6)
-            results.append(pw7)
-            results.append(pw8)
-            results.append(pw9)
-            results.append(pw10)
-            results.append(pw11)
+            results.extend([pw1,pw2,pw3,pw4,pw5,pw6,pw7,pw8,pw9,pw10,pw11])
 
 def generator_for_nickname(nickname, dob, results):
     for i in salt_list:
@@ -41,22 +31,15 @@ def generator_for_nickname(nickname, dob, results):
         pw2 = pw1 + str(dob[0])
         pw3 = pw2 + str(dob[1])
         pw4 = pw3 + str(dob[2][-2]) + str(dob[2][-1])
-        results.append(pw1)
-        results.append(pw2)
-        results.append(pw3)
-        results.append(pw4)
+        results.extend([pw1,pw2,pw3,pw4])
     pw5 = nickname + str(dob[0])
     pw6 = pw5 + str(dob[1])
     pw7 = nickname + str(dob[2])
     pw8 = pw6 + str(dob[2][-2]) + str(dob[2][-1])
     pw9 = nickname + str(dob[2][-2]) + str(dob[2][-1])
-    results.append(pw5)
-    results.append(pw6)
-    results.append(pw7)
-    results.append(pw8)
-    results.append(pw9)
+    results.extend([pw5,pw6,pw7,pw8,pw9])
     
-# password generator function that is based on the fullname and dob provided
+# password generator function that based on the fullname and dob provided
 def name_and_dob_based_gen(fullname, dob):
     stack1 = fullname.split(" ")
     stack2 = [stack1[-2], stack1[-1]]
